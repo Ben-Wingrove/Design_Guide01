@@ -1,0 +1,280 @@
+row{
+    border: 2px black solid;     
+}
+
+#fontfam1{
+    font-family: 'Roboto';
+}
+
+#fontfam2{
+    font-family: 'Montserrat';
+}
+
+.weight100{
+    font-weight: 100;
+}
+
+.weight300{ 
+    font-weight: 300;
+}
+
+.weight400{font-weight: 400;
+}
+
+.weight500{font-weight: 500;
+}
+
+.weight700{font-weight: 700;
+}
+
+div {
+    border: 2px black solid;     
+}
+
+span {
+    padding: 2px;
+    margin: 5px;
+}
+
+.quarter-radius {
+        margin-left: -10px;
+        margin-top: 10px;
+        min-width: 60px;
+        border: 2px solid; 
+        border-radius: 10% 20% 30% 70%;
+}
+
+.squint-left-radius {
+    margin-left: -10px;
+    margin-top: 10px;
+    min-width: 60px;
+    border: 2px solid; 
+    border-radius: 15% 70% 15% 70%;
+
+}
+.squint-right-radius {
+    margin-left: -10px;
+    margin-top: 10px;
+    min-width: 60px;
+    border: 2px solid; 
+    border-radius: 70% 15% 70% 15%;
+}
+
+.bg-linegrad1 { 
+    background: linear-gradient(#2866c9,#c4002e);
+}
+.bg-linegrad2 {
+    background: linear-gradient(#c4002e,#65e327);
+
+}
+.bg-linegrad3 {
+    background: linear-gradient(#65e327,#2866c9)
+}
+
+
+
+.one    {
+    border-color: #2866c9;
+    background-color: #2866c9;
+}
+
+.two {
+    border-color:#c4002e ;
+    background-color:#c4002e ;
+}
+
+.three { 
+    border-color: #65e327;
+    background-color: #65e327;
+}
+
+.onesec {
+    border-color:#0BE3E3 ;
+    background-color: #0BE3E3;
+}
+
+.twosec {
+    border-color: #E8900C;
+    background-color: #E8900C;
+}
+
+.threesec { 
+    border-color:  #AA10DE;
+    background-color: #AA10DE ;
+}
+
+.foursec {
+    border-color: #F2DC16;
+    background-color: #F2DC16;
+}
+
+#flexbox {
+    display:flex;
+}
+
+.flexlist1{
+    flex-direction: column;
+ 
+}   
+
+.flexlist2{
+    flex-direction: column-reverse;
+}
+
+li a{ 
+    color:black;
+    text-shadow: 1px 1px 1px green;
+}
+
+li a:hover{
+    color:red;
+    text-shadow: 
+
+}
+.flex-one {
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.flex-two{
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    
+}
+
+.flex-three{
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.flex-four {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flex-five {
+    flex-direction: row;
+    justify-content: flex-end;
+ 
+}
+
+.flex-six {
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.flex-seven {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.shade25 {
+    filter: brightness(25%);
+    background-color:#0BE3E3;
+ }
+
+.shade50 {
+    filter: brightness(50%);
+    background-color:#0BE3E3;
+}
+
+.shade75{
+    filter: brightness(75%);
+    background-color:#0BE3E3;
+}
+
+.shade100{
+    filter: brightness(100%);
+    background-color:#0BE3E3;
+}
+
+.shade125 {
+    filter: brightness(125%);
+    background-color:#0BE3E3;
+}
+
+.shade150 {
+    filter: brightness(150%);
+    background-color:#0BE3E3;
+}
+
+.shade175{
+    filter: brightness(175%);
+    background-color:#0BE3E3;
+}
+
+.shade200{
+    filter: brightness(200%);
+    background-color:#0BE3E3;
+}
+
+.flex-shade1 {
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.flex-shade2 {
+    justify-content: flex-end;
+    flex-direction: row-reverse
+}
+
+.flex-shade3 {
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.flex-shade4 {
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+.opacity20 {
+    opacity: .2;
+}
+.opacity40{
+    opacity: .4;
+}
+.opacity60 {
+    opacity: .6;
+}
+.opacity80 {
+    opacity:.8;
+}
+.opacity100 {
+    opacity: 1;
+}
+
+.tint10 {
+    background: rgba(101,227,39,0.1)
+}
+
+.tint25 {
+    background: rgba(101,227,39,0.25)
+
+}
+
+
+.tint50 {
+    background: rgba(101,227,39,0.5)
+}
+
+
+.tint75 {
+    background: rgba(101,227,39,0.75)
+}
+
+
+.tint100 {
+    background: rgba(101,227,39,1)
+}
+
+
+.hovering div div span:hover {
+    color:black;
+    background-color: red;
+
+}
